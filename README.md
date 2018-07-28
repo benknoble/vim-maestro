@@ -9,6 +9,7 @@ might notice it's rather terse: I prefer my presentations to aid my memory, not
 distract my audience.
 
 Most of this talk was in fact interactive, with participants walking away with
-their own vimrc (which we crafted by learning how to vim).
+their own vimrc (which we crafted by learning how to vim). If you have tmux and
+presenting.vim installed, you can launch it with `./present.sh`.
 
 Sample files for exercising are in `samples`.
