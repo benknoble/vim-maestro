@@ -1,6 +1,7 @@
 #! /usr/bin/env bash
 
 SESSION=vim-talk-presentation
+SERVER=vim-example
 
 log() {
   printf '%s\n' "$@"
@@ -45,7 +46,11 @@ new_window() {
 
 setup_presentation() {
   new_window "presentation" "vim -S presentation.vim slides/*.md"
-  new_window "example" "ssh vim-example"
+  new_window "example" "ssh -t $SERVER"
+}
+
+copy_samples() {
+    scp -r ./samples "$SERVER:samples"
 }
 
 attach_tmux() {
@@ -53,6 +58,7 @@ attach_tmux() {
 }
 
 present() {
+  copy_samples
   launch_tmux
   setup_presentation
   attach_tmux
