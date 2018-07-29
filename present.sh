@@ -2,6 +2,8 @@
 
 SESSION=vim-talk-presentation
 SERVER=vim-example
+MAPPINGS=mappings.vim
+INTRO=slides/intro.md
 
 log() {
   printf '%s\n' "$@"
@@ -45,7 +47,7 @@ new_window() {
 }
 
 setup_presentation() {
-  new_window "presentation" "vim -S presentation.vim slides/*.md"
+  new_window "presentation" "vim -S $MAPPINGS $INTRO"
   new_window "example" "ssh -t $SERVER"
 }
 
