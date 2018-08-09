@@ -26,7 +26,7 @@ What does every (code) editor need?
 
 - `number` vs. `relativenumber`
    - Why would we want `relativenumber` ?
-   - `d3j`
+   - `d5j`
 - `ruler`
 
 ### Indent

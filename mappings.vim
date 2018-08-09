@@ -7,4 +7,4 @@ function! Toc()
   let l:slide = search('\v^\d. slides\/\f*', 'nc')
   execute l:slide "mark S"
   nnoremap <silent> <LocalLeader>n 'SjmSkfsgf
-endfunctio
+endfunction
