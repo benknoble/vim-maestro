@@ -10,6 +10,10 @@ distract my audience.
 
 Most of this talk was in fact interactive, with participants walking away with
 their own vimrc (which we crafted by learning how to vim). If you have tmux and
-presenting.vim installed, you can launch it with `./present.sh`.
+presenting.vim installed, you can launch it with `./present.sh`. You'll also need
+`ssh` access to a machine called `vim-example` with no vim configs on it if you want
+to run the presentation. Take a look at `mappings.vim` as well.
+
+If you're following along, all you need is the samples.
 
 Sample files for exercising are in `samples`.
