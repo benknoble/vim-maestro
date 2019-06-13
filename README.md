@@ -1,5 +1,9 @@
 # Vim talk
 
+[![This project is personal](https://img.shields.io/badge/status-personal-important.svg)](https://benknoble.github.io/status/personal/)
+[![This project is considered experimental](https://img.shields.io/badge/status-experimental-critical.svg)](https://benknoble.github.io/status/experimental/)
+[![This project is archived](https://img.shields.io/badge/status-archived-critical.svg)](https://benknoble.github.io/status/archived/)
+
 Given by me, D. Ben Knoble, circa summer 2018 for Nuage Networks and Nokia
 interns who wanted to become vim maestros.
 
